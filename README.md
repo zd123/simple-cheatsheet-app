@@ -1,7 +1,27 @@
 # Web Apps in 5 mins
 
+We built this in 5 mins
+[https://simple-cheatsheet.streamlit.app/](https://simple-cheatsheet.streamlit.app/)
 
+### First Steps
 0. Create a free [Streamlit account](https://share.streamlit.io/signup)
+0. Install Streamlit `pip install streamlit`.
+
+### Two Ways to do this
+
+
+#### 1. Locally via a git Repo 
+0. Create a new repo, and clone it to your local machine. 
+0. Create a `README.md and streamlit_app.py and a requirements.txt` file in that repo. 
+0. Develop your app in the streamlit_app.py
+0. Add your requirements to the requirements.txt 
+0. Add any instructions to the readme. 
+0. Push your changes back to github. 
+0. Run the app locally using `streamlit run streamlit_app.py`
+0. That will open the app locally, and you will see a deploy button in the top right.  Click and follow the instructions.
+![alt text](image-3.png)  
+
+#### 2. Online Via Streamlit Website
 0. Click create app (top right corner).
 0. Follow the prompts of linking your github, and then choose a template or a blank app. 
 0. Change the domain and name of your app to whatever you want/is available. 
